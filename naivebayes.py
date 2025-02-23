@@ -80,7 +80,7 @@ plt.ylabel('Actual')
 plt.title('Naïve Bayes Confusion Matrix')
 
 #save it as a png so i can use it in the paper 
-#plt.savefig("mnb_confusionmatrix.png", dpi = 300, bbox_inches = 'tight')
+plt.savefig("mnb_confusionmatrix.png", dpi = 300, bbox_inches = 'tight')
 
 plt.show()
 
@@ -120,7 +120,7 @@ plt.ylabel('Actual')
 plt.title('Naïve Bayes Confusion Matrix for Held Out Data')
 
 #save this new confusion matrix as a png so i can use it in the paper 
-#plt.savefig("mnb_confusionmatrix_step3.png", dpi = 300, bbox_inches = 'tight')
+plt.savefig("mnb_confusionmatrix_step3.png", dpi = 300, bbox_inches = 'tight')
 
 plt.show()
 
